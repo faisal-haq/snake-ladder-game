@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.snakebox{
+    position: relative;
+    top: 20px;
+    height: 80vh;
+    width: 60vw;
+    border: 2px solid black;
+    justify-self:center;
+    display: grid;
+    grid-template-columns: repeat(10 ,1fr);
+    grid-template-rows: repeat(10 ,1fr);
+}
+.cell{
+    border: 2px solid black;
+    text-align: center;
+}
+.dicebox{
+    height: 10vh;
+    width: 60vw;
+    border: 2px solid black;
+    justify-self: center;
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.dice{
+    height: 10vh;
+    width: 10vw;
+    border: 2px solid black;
+    display: flex;
+}
+.red{
+    background-color: red;
+}
+.gray{
+    background-color: gray;
+}
+.dicedisplay{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
